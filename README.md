@@ -1,6 +1,6 @@
 # Description: 
 
-This project contains a CNN model to do corn image classification.  
+This project contains a CNN model to do corn image classification. All of the code is running on Google Colab, this file is the transformation version from the Colab
 
 
 # Role of each file:
