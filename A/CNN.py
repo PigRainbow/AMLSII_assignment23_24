@@ -159,9 +159,9 @@ val_losses = []
 # Train
 model = Classifier().to(device)
 criterion = nn.CrossEntropyLoss()  # Set loss function for classification task
-optimizer = torch.optim.SGD(model.parameters(), lr=0.05)
+optimizer = torch.optim.SGD(model.parameters(), lr=0.05) # Other learning rate: 0.01, 0.005
 #optimizer = torch.optim.Adam(model.parameters(), lr=0.005)
-n_epochs = 3  # Number of training epochs
+n_epochs = 20  # Number of training epochs, other epoch setting: 35, 50, 80
 
 for epoch in range(n_epochs):
     model.train()  # Set the model to training mode
